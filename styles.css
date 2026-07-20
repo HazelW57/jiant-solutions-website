@@ -115,3 +115,27 @@ header,header nav,footer,.hero,.workflow{
   background-size:4px 4px!important;
 }
 
+/* Preserve dark brand areas when a client force-inverts vector/CSS colors. */
+header,header nav,footer,.hero,.workflow{
+  background:#171a18 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGUExURRcaGP///wT3Xa0AAAABYktHRAH/Ai3eAAAAB3RJTUUH6gcUEjYgu4BIPwAAAAtJREFUCNdjYEAFAAAQAAGhxSHBAAAAAElFTkSuQmCC") repeat!important;
+  background-size:8px 8px!important;
+  background-blend-mode:normal!important;
+}
+.cards .plain,.cards .plain>div{
+  background:#536b63 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGUExURVNrY////+iy+zUAAAABYktHRAH/Ai3eAAAAB3RJTUUH6gcUEjYnJeTdnAAAAAtJREFUCNdjYEAFAAAQAAGhxSHBAAAAAElFTkSuQmCC") repeat!important;
+  background-size:8px 8px!important;
+  background-blend-mode:normal!important;
+}
+@media (prefers-color-scheme:dark){
+  header,header nav,footer,.hero,.workflow{
+    background:#171a18 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGUExURRcaGP///wT3Xa0AAAABYktHRAH/Ai3eAAAAB3RJTUUH6gcUEjYgu4BIPwAAAAtJREFUCNdjYEAFAAAQAAGhxSHBAAAAAElFTkSuQmCC") repeat!important;
+    background-size:8px 8px!important;
+    background-blend-mode:normal!important;
+  }
+  .cards .plain,.cards .plain>div{
+    background:#536b63 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGUExURVNrY////+iy+zUAAAABYktHRAH/Ai3eAAAAB3RJTUUH6gcUEjYnJeTdnAAAAAtJREFUCNdjYEAFAAAQAAGhxSHBAAAAAElFTkSuQmCC") repeat!important;
+    background-size:8px 8px!important;
+    background-blend-mode:normal!important;
+  }
+}
+
