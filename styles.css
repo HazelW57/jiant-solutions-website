@@ -5,7 +5,7 @@
 
 /* Fixed brand colors: opt out of browser and OS automatic darkening. */
 :root{
-  color-scheme:only light!important;
+  color-scheme:light dark!important;
   supported-color-schemes:light;
 }
 html{
@@ -17,7 +17,7 @@ body{
   background-image:linear-gradient(#f1eee7,#f1eee7)!important;
   color:#171a18!important;
 }
-button,input,select,textarea{color-scheme:light!important}
+button,input,select,textarea{color-scheme:light dark!important}
 
 /* Solid gradients preserve the intended palette in mobile forced-dark browsers. */
 header,footer,.hero,.workflow{
@@ -49,7 +49,7 @@ header,footer,.hero,.workflow{
 .cards article,.cards article h3,.cards article a{color:#fff!important}
 
 @media (prefers-color-scheme:dark){
-  :root{color-scheme:only light!important}
+  :root{color-scheme:light dark!important}
   html,body{
     background-color:#f1eee7!important;
     background-image:linear-gradient(#f1eee7,#f1eee7)!important;
