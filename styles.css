@@ -82,3 +82,36 @@ header,footer,.hero,.workflow{
   }
 }
 
+/* Hard lock for browsers that force dark mode despite color-scheme opt-out.
+   These colors are embedded as image pixels, which automatic darkening does not recolor. */
+html,body,.manifest,.returns{
+  background-color:#f1eee7!important;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Cpath fill='%23f1eee7' d='M0 0h4v4H0z'/%3E%3C/svg%3E")!important;
+  background-repeat:repeat!important;
+  background-size:4px 4px!important;
+}
+.services{
+  background-color:#e4e0d7!important;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Cpath fill='%23e4e0d7' d='M0 0h4v4H0z'/%3E%3C/svg%3E")!important;
+  background-repeat:repeat!important;
+  background-size:4px 4px!important;
+}
+.partners{
+  background-color:#cbd4ce!important;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Cpath fill='%23cbd4ce' d='M0 0h4v4H0z'/%3E%3C/svg%3E")!important;
+  background-repeat:repeat!important;
+  background-size:4px 4px!important;
+}
+header,header nav,footer,.hero,.workflow{
+  background-color:#171a18!important;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Cpath fill='%23171a18' d='M0 0h4v4H0z'/%3E%3C/svg%3E")!important;
+  background-repeat:repeat!important;
+  background-size:4px 4px!important;
+}
+.rail,.contact{
+  background-color:#d96b41!important;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Cpath fill='%23d96b41' d='M0 0h4v4H0z'/%3E%3C/svg%3E")!important;
+  background-repeat:repeat!important;
+  background-size:4px 4px!important;
+}
+
