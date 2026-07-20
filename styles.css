@@ -161,3 +161,8 @@ header .brand img,footer img{filter:none!important}
   -webkit-text-fill-color:#d96b41!important;
 }
 
+.contact .eyebrow:before{
+  background-color:#171a18!important;
+  background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIAQMAAAD+wSzIAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAGUExURRcaGP///wT3Xa0AAAABYktHRAH/Ai3eAAAAB3RJTUUH6gcUFBQwBQhiyQAAAAtJREFUCNdjYEAFAAAQAAGhxSHBAAAAAElFTkSuQmCC")!important;
+}
+
